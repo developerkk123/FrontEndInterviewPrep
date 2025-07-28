@@ -1,6 +1,7 @@
 import logo from './logo.svg';
+// import Closure from './component/Closure/Closure';
 import './App.css';
-
+import Callback from './component/Callback/Callback';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Callback />
     </div>
   );
 }
