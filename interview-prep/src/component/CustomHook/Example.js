@@ -1,5 +1,10 @@
 import React from 'react';
 
+/**
+ * @definition : Custom hook function for fetching data from a given URL.
+ * @param {*} url 
+ * @returns {data, loading, error}
+ */
 function useFetch(url) {
     const [data, setData] = React.useState(null);
     const [error, setError] = React.useState(null);
