@@ -2,6 +2,7 @@ import logo from './logo.svg';
 // import Closure from './component/Closure/Closure';
 import './App.css';
 import Callback from './component/Callback/Callback';
+import CustomHook from './component/CustomHook/CustomHook';
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
-      <Callback />
+      {/* <Callback /> */}
+      <CustomHook />
     </div>
   );
 }

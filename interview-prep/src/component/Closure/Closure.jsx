@@ -117,6 +117,12 @@ function setupButton() {
 /**
  * @interview question
  */
+
+/**
+ * @explanation : var is functional scope, all callback share same
+ * variable i with closure, using let we can fix
+ * so all callback have own copy of the variable i
+ */
 for (var i = 0; i < 5; i++) {
   ((j) => {
     // console.log("index = ", i);

@@ -3,6 +3,14 @@
  * @definition : A callback is a function passed into another function as an argument, and exceuted after some operation has been completed.
  */
 
+/**
+ * @usecase
+ * Callbacks are commonly used in asynchronous programming,
+ * allowing you to execute code after a certain task has been completed,
+ * Built in array method (map, filter, reduce) also use callbacks.
+ * Event listeners in JavaScript are also a common use case for callbacks.
+ */
+
 // example 1
 function greet(name, callbackFn) {
   console.log(`Hello ${name}`);
